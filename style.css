@@ -1,0 +1,25 @@
+body{
+    background-color: #000;
+
+}
+.fa-start{
+    position:static;
+    opacity: 0.8s;
+
+
+}
+.blink{
+    animation: blink 1s infinite;
+}
+@keyframes blink {
+    0%{
+        opacity: .6;
+    }
+    50%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: .6;
+    }
+    
+}
